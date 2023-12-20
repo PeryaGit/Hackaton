@@ -2,8 +2,8 @@ import telebot
 import openai
 
 # Токены для Telegram и OpenAI
-TELEGRAM_TOKEN = '6750792758:AAGTJoAdZz1KysEuUYD0gQfytzRAWXQ_-6k'
-OPENAI_API_KEY = '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'
+TELEGRAM_TOKEN = 'PASTE_YOUR_TOKEN'
+OPENAI_API_KEY = 'PASTE_YOUR_TOKEN'
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 openai.api_key = OPENAI_API_KEY
